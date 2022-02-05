@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home_Activity">
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:id="@+id/buet_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="BUET" />
+
+        <Button
+            android:id="@+id/du_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Dhaka University" />
+
+        <Button
+            android:id="@+id/ru_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Rajshahi University" />
+
+        <Button
+            android:id="@+id/cu_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="University of Chittagong" />
+
+        <Button
+            android:id="@+id/ju_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Jahangirnagar university"
+            />
+        <Button
+            android:id="@+id/gst_Button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="GST Admission"
+            />
+        <Button
+            android:id="@+id/medical_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Medical College"/>
+
+        <Button
+            android:id="@+id/agriculture_button"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Agriculture Admission"
+            />
+
+
+    </ScrollView>
+</LinearLayout>

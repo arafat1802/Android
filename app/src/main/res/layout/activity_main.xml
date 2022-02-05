@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#191919"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <Spinner
+                android:id="@+id/sub_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#f9f9f9"/>
+
+            <EditText
+                android:id="@+id/sub_a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Marks: A"
+                android:inputType="numberDecimal"
+                android:textColor="#f9f9f9"
+                android:textColorHint="#ECDBBA"/>
+
+            <EditText
+                android:id="@+id/sub_b"
+                android:textColor="#f9f9f9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Marks: B"
+                android:inputType="numberDecimal"
+                android:textColorHint="#ECDBBA"/>
+
+            <EditText
+                android:id="@+id/sub_c"
+                android:layout_width="match_parent"
+                android:textColor="#f9f9f9"
+                android:layout_height="wrap_content"
+                android:hint="Enter Marks: C"
+                android:inputType="numberDecimal"
+                android:textColorHint="#ECDBBA"/>
+
+            <EditText
+                android:id="@+id/sub_d"
+                android:layout_width="match_parent"
+                android:textColor="#f9f9f9"
+                android:layout_height="wrap_content"
+                android:hint="Enter Marks: D"
+                android:inputType="numberDecimal"
+                android:textColorHint="#ECDBBA"/>
+
+            <EditText
+                android:id="@+id/sub_e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Marks: E"
+                android:inputType="numberDecimal"
+                android:textColor="#f9f9f9"
+                android:textColorHint="#ECDBBA"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textColor="#f9f9f9"
+                android:gravity="center"
+                android:text="Search"
+                app:backgroundTint="#C84B31"
+                android:textColorHint="#ECDBBA"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
