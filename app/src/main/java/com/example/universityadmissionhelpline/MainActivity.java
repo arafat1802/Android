@@ -10,30 +10,24 @@ import android.widget.Button;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity {
-    @Override
+    Button srch_btn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Spinner spinner = (Spinner) findViewById(R.id.sub_spinner);
-// Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.sub_array, android.R.layout.simple_spinner_item);
-// Specify the layout to use when the list of choices appears
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-// Apply the adapter to the spinner
         spinner.setAdapter(adapter);
-/*
-        //Button buet = (Button) findViewById(R.id.buet_button);
-
-        //buet.setOnClickListener(new View.OnClickListener() {
+        srch_btn = (Button) findViewById(R.id.search_button);
+        srch_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent intent;
-               // intent = new Intent (this, Buet.class);
-                //startActivity(intent);
-               // finish();
+                Intent intent = new Intent(MainActivity.this, UniversityInfo.class);
+                startActivity(intent);
+
             }
-        });*/
+        });
 
     }
 }

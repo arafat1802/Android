@@ -5,4 +5,27 @@
         <item>Arts</item>
         <item>Commerce</item>
     </string-array>
+    <string-array name="university_name">
+        <item>Jagannath University</item>
+        <item>Islamic University</item>
+        <item>Khulna University</item>
+        <item>Comilla University</item>
+        <item>Jatiya Kabi Kazi Nazrul Islam University</item>
+        <item>Begum Rokeya University</item>
+        <item>University of Barishal</item>
+        <item>Rabindra University</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Digital University</item>
+        <item>Sheikh Hasina University</item>
+        <item>Shahjalal University of Science &amp; Technology</item>
+        <item>Haji Mohammad Danesh Science and Technology University</item>
+        <item>Mawlana Bhashani Science &amp; Technology University</item>
+        <item>Noakhali Science &amp; Technology University</item>
+        <item>Jashore University of Science and Technology</item>
+        <item>Pabna University of Science and Technology</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Science &amp; Technology University</item>
+        <item>Rangamati Science and Technology University</item>
+        <item>Bangamata Sheikh Fojilatunnesa Mujib Science and Technology University</item>
+        <item>Patuakhali Science And Technology University</item>
+    </string-array>
+
 </resources>

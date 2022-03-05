@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Final/app/src/main/res/layout/activity_buet.xml" value="0.3625" />
         <entry key="..\:/Final/app/src/main/res/layout/activity_home.xml" value="0.2930253623188406" />
-        <entry key="..\:/Final/app/src/main/res/layout/activity_main.xml" value="0.2930253623188406" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Final/app/src/main/res/layout/activity_splash_screen.xml" value="0.2930253623188406" />
+        <entry key="..\:/Final/app/src/main/res/layout/activity_university_info.xml" value="0.17604166666666668" />
+        <entry key="..\:/Final/app/src/main/res/layout/uni_item.xml" value="0.1" />
       </map>
     </option>
   </component>

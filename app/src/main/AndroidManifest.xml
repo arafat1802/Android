@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UniversityAdmissionHelpline">
         <activity
-            android:name=".Buet"
+            android:name=".UniversityInfo"
             android:exported="false" />
         <activity
             android:name=".Home_Activity"

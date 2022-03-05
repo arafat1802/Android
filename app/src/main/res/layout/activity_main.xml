@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="60dp"
@@ -26,12 +27,6 @@
             android:orientation="vertical"
             android:textAlignment="center">
 
-            <Spinner
-                android:id="@+id/sub_spinner"
-                android:layout_width="match_parent"
-                android:layout_height="20dp"
-                android:background="#f9f9f9"/>
-
             <EditText
                 android:id="@+id/sub_a"
                 android:layout_width="match_parent"
@@ -39,34 +34,34 @@
                 android:hint="Enter Marks: A"
                 android:inputType="numberDecimal"
                 android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA"/>
+                android:textColorHint="#ECDBBA" />
 
             <EditText
                 android:id="@+id/sub_b"
-                android:textColor="#f9f9f9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: B"
                 android:inputType="numberDecimal"
-                android:textColorHint="#ECDBBA"/>
+                android:textColor="#f9f9f9"
+                android:textColorHint="#ECDBBA" />
 
             <EditText
                 android:id="@+id/sub_c"
                 android:layout_width="match_parent"
-                android:textColor="#f9f9f9"
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: C"
                 android:inputType="numberDecimal"
-                android:textColorHint="#ECDBBA"/>
+                android:textColor="#f9f9f9"
+                android:textColorHint="#ECDBBA" />
 
             <EditText
                 android:id="@+id/sub_d"
                 android:layout_width="match_parent"
-                android:textColor="#f9f9f9"
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: D"
                 android:inputType="numberDecimal"
-                android:textColorHint="#ECDBBA"/>
+                android:textColor="#f9f9f9"
+                android:textColorHint="#ECDBBA" />
 
             <EditText
                 android:id="@+id/sub_e"
@@ -74,21 +69,35 @@
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: E"
                 android:inputType="numberDecimal"
+                android:minHeight="48dp"
                 android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA"/>
+                android:textColorHint="#ECDBBA" />
 
             <Button
+                android:id="@+id/search_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="100dp"
-                android:textColor="#f9f9f9"
                 android:gravity="center"
                 android:text="Search"
-                app:backgroundTint="#C84B31"
-                android:textColorHint="#ECDBBA"/>
+                android:textColor="#f9f9f9"
+                android:textColorHint="#ECDBBA"
+                app:backgroundTint="#C84B31" />
 
         </LinearLayout>
     </ScrollView>
+
+    <Spinner
+        android:id="@+id/sub_spinner"
+        android:layout_width="152dp"
+        android:layout_height="26dp"
+        android:background="#f9f9f9"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
