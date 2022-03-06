@@ -7,12 +7,12 @@
     tools:context=".UniversityInfo">
 
     <ListView
-        android:divider="@color/black"
-        android:dividerHeight="2dp"
+        android:divider="@color/DividerColor"
+        android:dividerHeight="3dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/university_list"
-        android:listSelector="#27e233"
+        android:listSelector="@color/LightPrimary"
         />
 
 

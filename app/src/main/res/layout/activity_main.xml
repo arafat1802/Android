@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#191919"
+    android:background="#F0F0F0"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -25,16 +25,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:textAlignment="center">
-
+            android:textAlignment="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your marks"
+                android:textSize="20dp"
+                android:textColor="@color/PrimaryText"
+                android:background="@color/PrimaryColor"
+                android:textAlignment="center"
+                />
+            <!-- Each edit text takes in a number -->
             <EditText
                 android:id="@+id/sub_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: A"
                 android:inputType="numberDecimal"
-                android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA" />
+                android:textColor="@color/PrimaryText"
+                android:textColorHint="@color/SecondaryText" />
 
             <EditText
                 android:id="@+id/sub_b"
@@ -42,8 +52,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: B"
                 android:inputType="numberDecimal"
-                android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA" />
+                android:textColor="@color/PrimaryText"
+                android:textColorHint="@color/SecondaryText" />
 
             <EditText
                 android:id="@+id/sub_c"
@@ -51,8 +61,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: C"
                 android:inputType="numberDecimal"
-                android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA" />
+                android:textColor="@color/PrimaryText"
+                android:textColorHint="@color/SecondaryText" />
 
             <EditText
                 android:id="@+id/sub_d"
@@ -60,8 +70,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Enter Marks: D"
                 android:inputType="numberDecimal"
-                android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA" />
+                android:textColor="@color/PrimaryText"
+                android:textColorHint="@color/SecondaryText" />
 
             <EditText
                 android:id="@+id/sub_e"
@@ -70,8 +80,8 @@
                 android:hint="Enter Marks: E"
                 android:inputType="numberDecimal"
                 android:minHeight="48dp"
-                android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA" />
+                android:textColor="@color/PrimaryText"
+                android:textColorHint="@color/SecondaryText" />
 
             <Button
                 android:id="@+id/search_button"
@@ -80,24 +90,28 @@
                 android:layout_marginLeft="100dp"
                 android:gravity="center"
                 android:text="Search"
-                android:textColor="#f9f9f9"
-                android:textColorHint="#ECDBBA"
-                app:backgroundTint="#C84B31" />
+                android:textColor="@color/PrimaryText"
+                android:textColorHint="@color/PrimaryText"
+                app:backgroundTint="@color/AccentColor" />
 
         </LinearLayout>
     </ScrollView>
 
+    <!-- Spinner at the top left for choosing -->
     <Spinner
         android:id="@+id/sub_spinner"
         android:layout_width="152dp"
         android:layout_height="26dp"
-        android:background="#f9f9f9"
+        android:background="@color/LightPrimary"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.861"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.586" />
+        app:layout_constraintVertical_bias="0.586"
+        android:outlineAmbientShadowColor="@color/PrimaryColor"
+        android:textAlignment="center"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
