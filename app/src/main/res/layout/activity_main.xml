@@ -92,7 +92,8 @@
                 android:text="Search"
                 android:textColor="@color/PrimaryText"
                 android:textColorHint="@color/PrimaryText"
-                app:backgroundTint="@color/AccentColor" />
+                app:backgroundTint="@color/AccentColor"
+                />
 
         </LinearLayout>
     </ScrollView>

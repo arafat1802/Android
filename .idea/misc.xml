@@ -9,11 +9,15 @@
         <entry key="..\:/Final/app/src/main/res/layout/activity_splash_screen.xml" value="0.2930253623188406" />
         <entry key="..\:/Final/app/src/main/res/layout/activity_university_info.xml" value="0.17604166666666668" />
         <entry key="..\:/Final/app/src/main/res/layout/uni_item.xml" value="0.1" />
+        <entry key="..\:/GithubRepo/Android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/GithubRepo/Android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/activity_buet.xml" value="0.17300724637681159" />
-        <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
-        <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/activity_splash_screen.xml" value="0.17300724637681159" />
+        <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/activity_university_info.xml" value="0.1793478260869565" />
-        <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/uni_item.xml" value="0.17300724637681159" />
+        <entry key="..\:/GithubRepo/Android/app/src/main/res/layout/uni_item.xml" value="0.264" />
+        <entry key="..\:/GithubRepo/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
+        <entry key="..\:/GithubRepo/Android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
       </map>
     </option>
   </component>

@@ -5,8 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UniversityInfo">
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="list of universities you are eligible to apply"
+        android:textAlignment="center"
+        android:background="@color/DarkPrimary"
+        />
     <ListView
+        android:layout_marginTop="20dp"
         android:divider="@color/DividerColor"
         android:dividerHeight="3dp"
         android:layout_width="match_parent"
@@ -14,6 +23,5 @@
         android:id="@+id/university_list"
         android:listSelector="@color/LightPrimary"
         />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
