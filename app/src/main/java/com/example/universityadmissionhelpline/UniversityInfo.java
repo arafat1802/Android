@@ -15,11 +15,14 @@ public class UniversityInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_university_info);
+
         list = findViewById(R.id.university_list);
         String[] universityName = getResources().getStringArray(R.array.university_name);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(UniversityInfo.this,R.layout.uni_item,
                 R.id.text_view_id, universityName);
+
         list.setAdapter(arrayAdapter);
+
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
