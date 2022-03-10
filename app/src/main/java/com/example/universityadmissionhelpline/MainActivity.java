@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +22,22 @@ public class MainActivity extends AppCompatActivity {
                 R.array.sub_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+
+        /* Add all options for spinner with corresponding hints */
+
+        EditText editText = findViewById(R.id.sub_a);
+        if(spinner.getSelectedItem().toString().equals("Arts"))
+        {
+            editText.setHint("Arts");
+        }
+        else if(spinner.getSelectedItem().toString().equals("Science"))
+        {
+            editText.setHint("Science");
+        }
+        else if(spinner.getSelectedItem().toString().equals("Commerce"))
+        {
+            editText.setHint("Commerce");
+        }
 
         srch_btn = (Button) findViewById(R.id.search_button);
         srch_btn.setOnClickListener(new View.OnClickListener() {
