@@ -10,11 +10,12 @@
         android:layout_height="match_parent"
         android:weightSum="8">
     <ImageView
-        android:layout_weight="1"
+        android:id="@+id/varsity_logo"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_margin="5dp"
-        android:src="@drawable/just"/>
+        android:layout_weight="1"
+        android:src="@drawable/just" />
     <LinearLayout
         android:layout_weight="7"
         android:layout_width="0dp"
@@ -25,7 +26,7 @@
     <TextView
         android:layout_marginTop="5dp"
         android:gravity="center_horizontal"
-        android:id="@+id/text_view_id"
+        android:id="@+id/varsity_name_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
@@ -34,12 +35,13 @@
         android:backgroundTint="@color/LightPrimary"
         android:textAllCaps="false" />
     <TextView
-        android:id="@+id/subtext_view_id"
+        android:id="@+id/apply_link"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:gravity="center_horizontal"
-        android:text="Subtext goes here"
+        android:text="Apply now"
+        android:textColor="@color/AccentColor"
         />
     </LinearLayout>
 
