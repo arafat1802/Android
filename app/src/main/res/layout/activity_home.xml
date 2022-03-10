@@ -8,44 +8,21 @@
     tools:context=".Home_Activity">
     <ScrollView
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content">
+        android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/buet_button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="BUET" />
-
-        <Button
-            android:id="@+id/du_button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Dhaka University" />
-
-        <Button
-            android:id="@+id/ru_button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Rajshahi University" />
-
-        <Button
-            android:id="@+id/cu_button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="University of Chittagong" />
-
-        <Button
-            android:id="@+id/ju_button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Jahangirnagar university"
-            />
         <Button
             android:id="@+id/gst_Button"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="GST Admission"
             />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
         <Button
             android:id="@+id/medical_button"
             android:layout_width="match_parent"
@@ -59,6 +36,6 @@
             android:text="Agriculture Admission"
             />
 
-
+    </LinearLayout>
     </ScrollView>
 </LinearLayout>
