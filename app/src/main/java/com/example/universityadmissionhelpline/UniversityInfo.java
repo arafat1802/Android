@@ -21,7 +21,7 @@ public class UniversityInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_university_info);
 
-        String[] universityName = getResources().getStringArray(R.array.university_name);
+        String[] universityName = getResources().getStringArray(R.array.university_name_gst);
 
         list = findViewById(R.id.university_list);
         CustomAdapter customAdapter = new CustomAdapter(this,universityName,logos);

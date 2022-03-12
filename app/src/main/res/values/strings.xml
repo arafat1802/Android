@@ -5,7 +5,7 @@
         <item>Arts</item>
         <item>Commerce</item>
     </string-array>
-    <string-array name="university_name">
+    <string-array name="university_name_gst">
         <item>Jagannath University</item>
         <item>Islamic University</item>
         <item>Khulna University</item>
@@ -26,6 +26,25 @@
         <item>Rangamati Science and Technology University</item>
         <item>Bangamata Sheikh Fojilatunnesa Mujib Science and Technology University</item>
         <item>Patuakhali Science And Technology University</item>
+    </string-array>
+
+    <string-array name="university_name_engineering">
+        <item>BUET</item>
+        <item>RUET</item>
+        <item>CUET</item>
+        <item>KUET</item>
+        <item>DUET</item>
+    </string-array>
+
+    <string-array name="university_name_general">
+        <item>DU</item>
+        <item>RU</item>
+        <item>JU</item>
+        <item>BUP</item>
+        <item>BUTEX</item>
+        <item>Medical</item>
+        <item>GST</item>
+        <item>Agri</item>
     </string-array>
 
 </resources>
