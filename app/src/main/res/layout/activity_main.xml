@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Enter your marks"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="@color/PrimaryText"
                 android:background="@color/PrimaryColor"
                 android:textAlignment="center"
