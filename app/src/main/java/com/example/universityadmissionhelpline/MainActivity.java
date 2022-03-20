@@ -25,19 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         /* Add all options for spinner with corresponding hints */
 
-        EditText editText = findViewById(R.id.sub_a);
-        if(spinner.getSelectedItem().toString().equals("Arts"))
-        {
-            editText.setHint("Arts");
-        }
-        else if(spinner.getSelectedItem().toString().equals("Science"))
-        {
-            editText.setHint("Science");
-        }
-        else if(spinner.getSelectedItem().toString().equals("Commerce"))
-        {
-            editText.setHint("Commerce");
-        }
+
 
         srch_btn = (Button) findViewById(R.id.search_button);
         srch_btn.setOnClickListener(new View.OnClickListener() {
