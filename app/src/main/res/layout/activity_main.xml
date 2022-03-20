@@ -8,6 +8,7 @@
     android:background="#F0F0F0"
     tools:context=".MainActivity">
 
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
@@ -20,13 +21,25 @@
         app:layout_constraintVertical_bias="0.034"
         tools:ignore="MissingConstraints">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:textAlignment="center"
             >
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineering"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medical"/>
+            </RadioGroup>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,12 +49,14 @@
                 android:background="@color/PrimaryColor"
                 android:textAlignment="center"
                 />
+
+
             <!-- Each edit text takes in a number -->
             <EditText
                 android:id="@+id/sub_a"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Marks: A"
+                android:hint="Enter SSC GPA"
                 android:inputType="numberDecimal"
                 android:textColor="@color/PrimaryText"
                 android:textColorHint="@color/SecondaryText" />
@@ -50,36 +65,8 @@
                 android:id="@+id/sub_b"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Enter Marks: B"
+                android:hint="Enter HSC GPA"
                 android:inputType="numberDecimal"
-                android:textColor="@color/PrimaryText"
-                android:textColorHint="@color/SecondaryText" />
-
-            <EditText
-                android:id="@+id/sub_c"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter Marks: C"
-                android:inputType="numberDecimal"
-                android:textColor="@color/PrimaryText"
-                android:textColorHint="@color/SecondaryText" />
-
-            <EditText
-                android:id="@+id/sub_d"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter Marks: D"
-                android:inputType="numberDecimal"
-                android:textColor="@color/PrimaryText"
-                android:textColorHint="@color/SecondaryText" />
-
-            <EditText
-                android:id="@+id/sub_e"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter Marks: E"
-                android:inputType="numberDecimal"
-                android:minHeight="48dp"
                 android:textColor="@color/PrimaryText"
                 android:textColorHint="@color/SecondaryText" />
 
@@ -87,7 +74,7 @@
                 android:id="@+id/search_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="100dp"
+                android:layout_gravity="center"
                 android:gravity="center"
                 android:text="Search"
                 android:textColor="@color/PrimaryText"
@@ -110,7 +97,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.586"
-        android:outlineAmbientShadowColor="@color/PrimaryColor"
         android:textAlignment="center"
         />
 
