@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Enter your marks"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="@color/PrimaryText"
                 android:background="@color/PrimaryColor"
                 android:textAlignment="center"
@@ -101,9 +101,9 @@
     <!-- Spinner at the top left for choosing -->
     <Spinner
         android:id="@+id/sub_spinner"
+        android:background="@drawable/style_spinner1"
         android:layout_width="152dp"
         android:layout_height="26dp"
-        android:background="@color/LightPrimary"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.861"
