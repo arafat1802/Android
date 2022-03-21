@@ -9,13 +9,12 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.Vector;
 
 public class UniversityInfo extends AppCompatActivity {
     ListView list;
 
     //id of university logos
-    int[] logos = {R.drawable.jnu,R.drawable.iu,R.drawable.ku,R.drawable.cu,R.drawable.jkknu,
+    int[] logos = {R.drawable.jnu,R.drawable.iu,R.drawable.ku,R.drawable.CoU,R.drawable.jkknu,
             R.drawable.bru,R.drawable.barisal,R.drawable.rabindro,R.drawable.bsmrstu,R.drawable.hasina,
             R.drawable.sust,R.drawable.hstu,R.drawable.mbstu,R.drawable.nstu,R.drawable.just,
             R.drawable.pust,R.drawable.dub,R.drawable.rmstu,R.drawable.bmsfmstu,R.drawable.pstu};
