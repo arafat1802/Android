@@ -8,22 +8,23 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class CustomAdapter extends BaseAdapter {
 
-    int[] logos;
-    String[] universityName;
+    ArrayList<Integer> logos;
+    ArrayList<String> universityName;
     Context context;
-
     LayoutInflater inflater;
 
-    CustomAdapter(Context context,String[] universityName,int[] logos){
+    CustomAdapter(Context context, ArrayList<String> universityName,ArrayList<Integer> logos){
         this.context = context;
         this.universityName = universityName;
         this.logos = logos;
     }
     @Override
     public int getCount() {
-        return universityName.length;
+        return universityName.size();
     }
 
     @Override
@@ -47,8 +48,8 @@ public class CustomAdapter extends BaseAdapter {
         ImageView imageView = (ImageView) convertView.findViewById(R.id.varsity_logo);
         TextView textView = (TextView) convertView.findViewById(R.id.varsity_name_id);
 
-        imageView.setImageResource(logos[position]);
-        textView.setText(universityName[position]);
+        imageView.setImageResource(logos.get(position));
+        textView.setText(universityName.get(position));
 
         return convertView;
     }
