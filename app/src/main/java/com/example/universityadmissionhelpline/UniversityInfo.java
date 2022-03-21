@@ -8,13 +8,14 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.beans.IndexedPropertyChangeEvent;
 import java.util.ArrayList;
 
 public class UniversityInfo extends AppCompatActivity {
     ListView list;
 
     //id of university logos
-    int[] logos = {R.drawable.jnu,R.drawable.iu,R.drawable.ku,R.drawable.CoU,R.drawable.jkknu,
+    int[] logos = {R.drawable.jnu,R.drawable.iu,R.drawable.ku,R.drawable.cou,R.drawable.jkknu,
             R.drawable.bru,R.drawable.barisal,R.drawable.rabindro,R.drawable.bsmrstu,R.drawable.hasina,
             R.drawable.sust,R.drawable.hstu,R.drawable.mbstu,R.drawable.nstu,R.drawable.just,
             R.drawable.pust,R.drawable.dub,R.drawable.rmstu,R.drawable.bmsfmstu,R.drawable.pstu};
@@ -31,8 +32,7 @@ public class UniversityInfo extends AppCompatActivity {
 
         //list of names of university (manually synced with logos)
         String[] universityName = getResources().getStringArray(R.array.university_name_gst);
-
-        //users gpa as inputted in previous intent
+    try {
         String SscGpa = getIntent().getStringExtra("KeySscGpa");
         String HscGpa = getIntent().getStringExtra("KeyHscGpa");
 
@@ -64,6 +64,11 @@ public class UniversityInfo extends AppCompatActivity {
                 Toast.makeText(UniversityInfo.this, value, Toast.LENGTH_SHORT).show();
             }
         });
+    }catch (Exception e){
+        Toast.makeText(UniversityInfo.this, "Enter Gpa", Toast.LENGTH_SHORT).show();
+    };
+        //users gpa as inputted in previous intent
+
 
     }
 }
