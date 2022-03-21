@@ -53,7 +53,7 @@
 
             <!-- Each edit text takes in a number -->
             <EditText
-                android:id="@+id/sub_a"
+                android:id="@+id/ssc_gpa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter SSC GPA"
@@ -62,7 +62,7 @@
                 android:textColorHint="@color/SecondaryText" />
 
             <EditText
-                android:id="@+id/sub_b"
+                android:id="@+id/hsc_gpa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enter HSC GPA"

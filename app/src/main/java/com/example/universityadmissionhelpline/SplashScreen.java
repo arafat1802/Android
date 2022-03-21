@@ -1,10 +1,8 @@
 package com.example.universityadmissionhelpline;
 
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.media.Ringtone;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
