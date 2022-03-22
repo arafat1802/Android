@@ -88,7 +88,7 @@
     <!-- Spinner at the top left for choosing -->
     <Spinner
         android:id="@+id/sub_spinner"
-        android:background="@drawable/style_spinner1"
+        android:background="@drawable/style_spinner3"
         android:layout_width="152dp"
         android:layout_height="26dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
