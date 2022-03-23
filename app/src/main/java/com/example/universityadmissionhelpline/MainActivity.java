@@ -17,14 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Spinner spinner = (Spinner) findViewById(R.id.sub_spinner);
+        Spinner spinner = findViewById(R.id.sub_spinner);
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.sub_array, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.sub_array, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
-        search_btn = (Button) findViewById(R.id.search_button);
+        search_btn = findViewById(R.id.search_button);
         GpaInputSsc = findViewById(R.id.ssc_gpa);
         GpaInputHsc = findViewById(R.id.hsc_gpa);
 
@@ -36,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 String hsc_gpa = GpaInputHsc.getText().toString();
 
                 Intent intent = new Intent(MainActivity.this, UniversityInfo.class);
+                //Passing data from previous intent
                 intent.putExtra("KeySscGpa",ssc_gpa);
                 intent.putExtra("KeyHscGpa",hsc_gpa);
 
