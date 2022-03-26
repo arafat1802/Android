@@ -5,12 +5,124 @@
         <item>Arts</item>
         <item>Commerce</item>
     </string-array>
-    <string-array name="university_name_gst">
+    <string-array name="unit_wise_university_name">
+
+        <item>Dhaka University (Unit-A)</item>
+        <item>Dhaka University (Unit-B)</item>
+        <item>Dhaka University (Unit-C)</item>
+        <item>Dhaka University (Unit-D)</item>
+        <item>Dhaka University (Unit-E)</item>
+
+        <item>Jahangirnagar University (Unit-A)</item>
+        <item>Jahangirnagar University (Unit-B)</item>
+        <item>Jahangirnagar University (Unit-C)</item>
+        <item>Jahangirnagar University (Unit-D)</item>
+        <item>Jahangirnagar University (Unit-E)</item>
+        <item>Jahangirnagar University (Unit-F)</item>
+        <item>Jahangirnagar University (Unit-G)</item>
+        <item>Jahangirnagar University (Unit-H)</item>
+
+        <item>Chittigonj University (Unit-A)</item>
+        <item>Chittigonj University (Unit-B)</item>
+        <item>Chittigonj University (Unit-C)</item>
+        <item>Chittigonj University (Unit-D)</item>
+
+        <item>Rajshahi University (Unit-A)</item>
+        <item>Rajshahi University (Unit-B)</item>
+        <item>Rajshahi University (Unit-C)</item>
+        <item>Rajshahi University (Unit-D)</item>
+        <item>Rajshahi University (Unit-E)</item>
+
+        <item>Jagannath University (Unit-A)</item>
+        <item>Jagannath University (Unit-B)</item>
+        <item>Jagannath University (Unit-C)</item>
+        <item>Jagannath University (Unit-D)</item>
+
+        <item>Islamic University (Unit-A)</item>
+        <item>Islamic University (Unit-B)</item>
+        <item>Islamic University (Unit-C)</item>
+
+        <item>Khulna University (Unit-A)</item>
+        <item>Khulna University (Unit-B)</item>
+        <item>Khulna University (Unit-C)</item>
+        <item>Khulna University (Unit-D)</item>
+
+        <item>Comilla University (Unit-A)</item>
+        <item>Comilla University (Unit-B)</item>
+        <item>Comilla University (Unit-C)</item>
+
+        <item>Jatiya Kabi Kazi Nazrul Islam University (Unit-A)</item>
+        <item>Jatiya Kabi Kazi Nazrul Islam University (Unit-B)</item>
+        <item>Jatiya Kabi Kazi Nazrul Islam University (Unit-C)</item>
+        <item>Jatiya Kabi Kazi Nazrul Islam University (Unit-D)</item>
+        <item>Jatiya Kabi Kazi Nazrul Islam University (Unit-E)</item>
+
+        <item>Begum Rokeya University (Unit-A)</item>
+        <item>Begum Rokeya University (Unit-B)</item>
+        <item>Begum Rokeya University (Unit-C)</item>
+        <item>Begum Rokeya University (Unit-D)</item>
+        <item>Begum Rokeya University (Unit-E)</item>
+        <item>Begum Rokeya University (Unit-F)</item>
+
+        <item>University of Barishal (Unit-A)</item>
+        <item>University of Barishal (Unit-B)</item>
+        <item>University of Barishal (Unit-C)</item>
+
+        <item>Rabindra University</item>
+
+        <item>Bangabandhu Sheikh Mujibur Rahman Digital University</item>
+
+        <item>Sheikh Hasina University</item>
+
+        <item>Shahjalal University of Science and Technology (Unit A1)</item>
+        <item>Shahjalal University of Science and Technology (Unit A2)</item>
+        <item>Shahjalal University of Science and Technology (Unit B)</item>
+
+        <item>Haji Mohammad Danesh Science and Technology University(Unit-A)</item>
+        <item>Haji Mohammad Danesh Science and Technology University(Unit-B)</item>
+        <item>Haji Mohammad Danesh Science and Technology University(Unit-C)</item>
+
+        <item>Mawlana Bhashani Science and Technology University (Unit-A)</item>
+        <item>Mawlana Bhashani Science and Technology University (Unit-B)</item>
+        <item>Mawlana Bhashani Science and Technology University (Unit-C)</item>
+
+        <item>Noakhali Science and Technology University (Unit-A)</item>
+        <item>Noakhali Science and Technology University (Unit-B)</item>
+        <item>Noakhali Science and Technology University (Unit-C)</item>
+        <item>Noakhali Science and Technology University (Unit-D)</item>
+        <item>Noakhali Science and Technology University (Unit-E)</item>
+        <item>Noakhali Science and Technology University (Unit-F)</item>
+
+        <item>Jashore University of Science and Technology (Unit-FET)</item>
+        <item>Jashore University of Science and Technology (Unit-FBST)</item>
+        <item>Jashore University of Science and Technology (Unit-FAST)</item>
+        <item>Jashore University of Science and Technology (Unit-FS)</item>
+
+        <item>Pabna University of Science and Technology (Unit-A)</item>
+        <item>Pabna University of Science and Technology (Unit-B)</item>
+        <item>Pabna University of Science and Technology (Unit-C)</item>
+
+        <item>Bangabandhu Sheikh Mujibur Rahman Science and Technology University(Unit-A)</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Science and Technology University(Unit-B)</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Science and Technology University(Unit-C)</item>
+        <item>Bangabandhu Sheikh Mujibur Rahman Science and Technology University(Unit-D)</item>
+
+        <item>Rangamati Science and Technology University </item>
+
+        <item>Bangamata Sheikh Fojilatunnesa Mujib Science and Technology University</item>
+
+        <item>Patuakhali Science And Technology University (Unit-A)</item>
+        <item>Patuakhali Science And Technology University (Unit-B)</item>
+        <item>Patuakhali Science And Technology University (Unit-C)</item>
+        <item>Patuakhali Science And Technology University (Unit-D)</item>
+        <item>Patuakhali Science And Technology University (Unit-E)</item>
+
+    </string-array>
+    <string-array name="university_name">
         <!--<item>Dhaka University</item>
         <item>Jahangirnagar University</item>
         <item>Chittigonj University</item>
         <item>Rajshahi University</item>
-        <item>Jagannath University</item>
 -->
         <item>Islamic University</item>
         <item>Khulna University</item>
