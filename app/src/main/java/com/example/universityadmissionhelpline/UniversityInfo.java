@@ -15,10 +15,32 @@ public class UniversityInfo extends AppCompatActivity {
     ListView list;
 
     //id of university logos
-    int[] logos = {R.drawable.jnu,R.drawable.iu,R.drawable.ku,R.drawable.cou,R.drawable.jkknu,
-            R.drawable.bru,R.drawable.barisal,R.drawable.rabindro,R.drawable.bsmrstu,R.drawable.hasina,
-            R.drawable.sust,R.drawable.hstu,R.drawable.mbstu,R.drawable.nstu,R.drawable.just,
-            R.drawable.pust,R.drawable.dub,R.drawable.rmstu,R.drawable.bmsfmstu,R.drawable.pstu};
+    int[] logos = {
+            R.drawable.du,R.drawable.du,R.drawable.du,R.drawable.du,R.drawable.du,
+            R.drawable.ju,R.drawable.ju,R.drawable.ju,R.drawable.ju,R.drawable.ju,R.drawable.ju,R.drawable.ju,R.drawable.ju,
+            R.drawable.cu, R.drawable.cu, R.drawable.cu, R.drawable.cu,
+            R.drawable.ru, R.drawable.ru, R.drawable.ru, R.drawable.ru, R.drawable.ru, R.drawable.ru,
+            R.drawable.jnu, R.drawable.jnu,R.drawable.jnu,R.drawable.jnu,
+            R.drawable.iu,  R.drawable.iu, R.drawable.iu,
+            R.drawable.ku, R.drawable.ku,R.drawable.ku,R.drawable.ku,
+            R.drawable.cou, R.drawable.cou,R.drawable.cou,
+            R.drawable.jkknu, R.drawable.jkknu,R.drawable.jkknu,R.drawable.jkknu,R.drawable.jkknu,
+            R.drawable.bru, R.drawable.bru,R.drawable.bru,R.drawable.bru,R.drawable.bru,R.drawable.bru,
+            R.drawable.barisal,R.drawable.barisal,R.drawable.barisal,
+            R.drawable.rabindro,
+            R.drawable.dub,
+            R.drawable.hasina,
+            R.drawable.sust, R.drawable.sust,R.drawable.sust,
+            R.drawable.hstu, R.drawable.hstu,R.drawable.hstu,
+            R.drawable.mbstu, R.drawable.mbstu,R.drawable.mbstu,
+            R.drawable.nstu,R.drawable.nstu,R.drawable.nstu,R.drawable.nstu,R.drawable.nstu,R.drawable.nstu,
+            R.drawable.just, R.drawable.just,R.drawable.just,R.drawable.just,
+            R.drawable.pust, R.drawable.pust,R.drawable.pust,
+            R.drawable.bsmrstu, R.drawable.bsmrstu, R.drawable.bsmrstu, R.drawable.bsmrstu,
+            R.drawable.rmstu,
+            R.drawable.bmsfmstu,R.drawable.bmsfmstu,
+            R.drawable.pstu, R.drawable.pstu,R.drawable.pstu,R.drawable.pstu,R.drawable.pstu,
+    };
 
     //requirement for gpa list
     double[] ssc_req ={2.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0};
@@ -31,7 +53,7 @@ public class UniversityInfo extends AppCompatActivity {
         setContentView(R.layout.activity_university_info);
 
         //list of names of university (manually synced with logos)
-        String[] universityName = getResources().getStringArray(R.array.university_name_gst);
+        String[] universityName = getResources().getStringArray(R.array.university_name);
     try {
         String SscGpa = getIntent().getStringExtra("KeySscGpa");
         String HscGpa = getIntent().getStringExtra("KeyHscGpa");
