@@ -118,12 +118,8 @@
         <item>Patuakhali Science And Technology University (Unit-E)</item>
 
     </string-array>
+
     <string-array name="university_name">
-        <!--<item>Dhaka University</item>
-        <item>Jahangirnagar University</item>
-        <item>Chittigonj University</item>
-        <item>Rajshahi University</item>
--->
         <item>Islamic University</item>
         <item>Khulna University</item>
         <item>Comilla University</item>
