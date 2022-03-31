@@ -1,6 +1,7 @@
 package com.example.universityadmissionhelpline;
 
 import android.content.Context;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,6 +48,10 @@ public class CustomAdapter extends BaseAdapter {
 
         ImageView imageView = (ImageView) convertView.findViewById(R.id.varsity_logo);
         TextView textView = (TextView) convertView.findViewById(R.id.varsity_name_id);
+
+
+        TextView linkTextView = convertView.findViewById(R.id.apply_link);
+        linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         imageView.setImageResource(logos.get(position));
         textView.setText(universityName.get(position));
