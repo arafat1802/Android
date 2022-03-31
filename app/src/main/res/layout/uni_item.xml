@@ -40,8 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:gravity="center_horizontal"
-        android:text="Apply now"
-        android:textColor="@color/AccentColor"
+        android:text="@string/DemoLink"
+        android:textColorLink="@color/AccentColor"
         />
     </LinearLayout>
 
