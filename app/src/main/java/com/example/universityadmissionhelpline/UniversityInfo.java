@@ -1,14 +1,13 @@
 package com.example.universityadmissionhelpline;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import java.beans.IndexedPropertyChangeEvent;
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.ArrayList;
 
 public class UniversityInfo extends AppCompatActivity {
@@ -56,6 +55,35 @@ public class UniversityInfo extends AppCompatActivity {
                        2.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0,
                        2.0,2.0,2.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,4.0,4.0,4.0,4.0,4.0,4.0,4.0
     };
+
+    String[] UnitType={
+            "sci", "com","arts","gen","gen", //du
+            "sci", "com","sci","sci","com","arts","gen","gen", //ju
+            "sci", "com", "arts", "gen", //cu
+            "sci", "com", "arts", "arts", "gen", "gen", //ru
+            "sci", "com","arts","gen", //jnu
+            "sci", "com", "arts", //iu
+            "sci", "com","arts","gen", //ku
+            "sci", "com","arts", //cou
+            "sci", "com","arts","arts","gen", //jkknu
+            "sci", "com","com","sci","arts","gen", // bru
+            "sci", "com","arts", // barisal
+            "sci", //rabindra
+            "gen", //dub
+            "gen", //hasina
+            "sci", "com","arts", //sust
+            "sci", "com","arts", //hstu
+            "sci", "com","arts", //mbstu
+            "sci", "com","arts","arts","gen","gen", //nstu
+            "sci", "com","arts","gen", //just
+            "sci", "com","arts", //pust
+            "sci", "com","arts", "gen", //bsmrstu
+            "sci", //rmstu
+            "sci","gen", //bmsfmstu
+            "sci", "com","arts","gen","gen", //pstu
+
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,17 +94,18 @@ public class UniversityInfo extends AppCompatActivity {
     try {
         String SscGpa = getIntent().getStringExtra("KeySscGpa");
         String HscGpa = getIntent().getStringExtra("KeyHscGpa");
+        String Unit = getIntent().getStringExtra("Unit");
 
         double ssc_gpa = Double.parseDouble(SscGpa);
         double hsc_gpa = Double.parseDouble(HscGpa);
 
         //For creating custom list depending on inputted gpa
-        ArrayList<String> displayedList = new ArrayList<String>();
-        ArrayList<Integer> displayedLogos = new ArrayList<Integer>() ;
+        ArrayList<String> displayedList = new ArrayList<>();
+        ArrayList<Integer> displayedLogos = new ArrayList<>() ;
 
-        for(int i=0,element=0;i< universityName.length;i++)
+        for(int i = 0; i< universityName.length; i++)
         {
-            if(ssc_req[i]<=ssc_gpa && hsc_req[i]<=hsc_gpa) {
+            if(ssc_req[i]<=ssc_gpa && hsc_req[i]<=hsc_gpa && (UnitType[i].equals(Unit) || UnitType[i].equals("gen") )) {
                 displayedList.add(universityName[i]);
                 displayedLogos.add(logos[i]);
             }
@@ -84,7 +113,7 @@ public class UniversityInfo extends AppCompatActivity {
 
 
         list = findViewById(R.id.university_list);
-        CustomAdapter customAdapter = new CustomAdapter(this,displayedList,displayedLogos);
+        CustomAdapter customAdapter = new CustomAdapter(this,displayedList,displayedLogos,Unit);
         list.setAdapter(customAdapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -97,7 +126,7 @@ public class UniversityInfo extends AppCompatActivity {
         });
     }catch (Exception e){
         Toast.makeText(UniversityInfo.this, "Enter Gpa", Toast.LENGTH_SHORT).show();
-    };
+    }
 
     }
 }
