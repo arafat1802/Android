@@ -18,7 +18,7 @@ public class CustomAdapter extends BaseAdapter {
     Context context;
     LayoutInflater inflater;
 
-    CustomAdapter(Context context, ArrayList<String> universityName,ArrayList<Integer> logos){
+    CustomAdapter(Context context, ArrayList<String> universityName,ArrayList<Integer> logos,String unit){
         this.context = context;
         this.universityName = universityName;
         this.logos = logos;
