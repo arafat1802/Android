@@ -88,7 +88,6 @@ public class UniversityInfo extends AppCompatActivity {
         list.setAdapter(customAdapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String value = universityName[position];
@@ -96,7 +95,7 @@ public class UniversityInfo extends AppCompatActivity {
             }
         });
     }catch (Exception e){
-        Toast.makeText(UniversityInfo.this, "Enter Gpa", Toast.LENGTH_SHORT).show();
+        Toast.makeText(UniversityInfo.this, "Enter HSC and SSC Gpa", Toast.LENGTH_SHORT).show();
     };
 
     }

@@ -50,8 +50,8 @@ public class CustomAdapter extends BaseAdapter {
         TextView textView = (TextView) convertView.findViewById(R.id.varsity_name_id);
 
 
-        TextView linkTextView = convertView.findViewById(R.id.apply_link);
-        linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        //TextView linkTextView = convertView.findViewById(R.id.apply_link);
+        //linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         imageView.setImageResource(logos.get(position));
         textView.setText(universityName.get(position));

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UniversityAdmissionHelpline">
         <activity
+            android:name=".UniversityDetails"
+            android:exported="false" />
+        <activity
             android:name=".UniversityInfo"
             android:exported="false" />
         <activity
