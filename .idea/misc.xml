@@ -25,7 +25,8 @@
         <entry key="app/src/main/res/drawable/style_spinner2.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/style_spinner3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17325227963525835" />
-        <entry key="app/src/main/res/layout/activity_university_details.xml" value="0.21739130434782608" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.12545289855072464" />
+        <entry key="app/src/main/res/layout/activity_university_details.xml" value="0.21" />
         <entry key="app/src/main/res/layout/activity_university_info.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/uni_item.xml" value="0.35625" />
       </map>
