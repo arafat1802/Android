@@ -34,15 +34,16 @@
         android:textColor="@color/PrimaryText"
         android:backgroundTint="@color/LightPrimary"
         android:textAllCaps="false" />
-    <TextView
-        android:id="@+id/apply_link"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:gravity="center_horizontal"
-        android:text="@string/DemoLink"
-        android:textColorLink="@color/AccentColor"
-        />
+        <TextView
+            android:id="@+id/apply_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/DemoLink"
+            android:textColorLink="@color/AccentColor"
+            />
+
     </LinearLayout>
 
     </LinearLayout>
