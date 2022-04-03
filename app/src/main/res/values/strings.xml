@@ -1,120 +1,123 @@
 <resources>
     <string name="app_name">University Admission Helpline</string>
+
     <string name="DemoLink"><a href="https://jkkniu.edu.bd">Apply Now</a></string>
+
     <string-array name="sub_array">
         <item>Science</item>
         <item>Arts</item>
         <item>Commerce</item>
     </string-array>
+
     <string-array name="University_admission_link">
-        <item><a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508"> </a>Apply Now</item>
-        <item><a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508"></a>Apply Now</item>
-        <item><a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508"></a>Apply Now</item>
-        <item><a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508"></a>Apply Now</item>
-        <item><a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508">Apply Now </a>]]></item>
+        <item><![CDATA[<a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admeece3d99a2351788fe9eb7f85f37ebae.eis.du.ac.bd/en/408b7c8ad06e4d9954fa2d948a01f508">Apply Now</a>]]></item>
 
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
-        <item><a href="https://juniv-admission.org/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://juniv-admission.org/">Apply Now</a>]]></item>
 
-        <item><a href="https://admission.cu.ac.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.cu.ac.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.cu.ac.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.cu.ac.bd/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://admission.cu.ac.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.cu.ac.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.cu.ac.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.cu.ac.bd/">Apply Now</a>]]></item>
 
-        <item><a href="https://admission.ru.ac.bd/undergraduate/"></a>Apply Now</item>
-        <item><a href="https://admission.ru.ac.bd/undergraduate/"></a>Apply Now</item>
-        <item><a href="https://admission.ru.ac.bd/undergraduate/"></a>Apply Now</item>
-        <item><a href="https://admission.ru.ac.bd/undergraduate/"></a>Apply Now</item>
-        <item><a href="https://admission.ru.ac.bd/undergraduate/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://admission.ru.ac.bd/undergraduate/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.ru.ac.bd/undergraduate/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.ru.ac.bd/undergraduate/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.ru.ac.bd/undergraduate/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.ru.ac.bd/undergraduate/">Apply Now</a>]]></item>
 
-        <item><a href="http://admission.jnu.ac.bd/adn2021/"></a>Apply Now</item>
-        <item><a href="http://admission.jnu.ac.bd/adn2021/"></a>Apply Now</item>
-        <item><a href="http://admission.jnu.ac.bd/adn2021/"></a>Apply Now</item>
-        <item><a href="http://admission.jnu.ac.bd/adn2021/"></a>Apply Now</item>
+        <item><![CDATA[<a href="http://admission.jnu.ac.bd/adn2021/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="http://admission.jnu.ac.bd/adn2021/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="http://admission.jnu.ac.bd/adn2021/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="http://admission.jnu.ac.bd/adn2021/">Apply Now</a>]]></item>
 
-        <item><a href="https://www.iu.ac.bd/admission/"></a>Apply Now</item>
-        <item><a href="https://www.iu.ac.bd/admission/"></a>Apply Now</item>
-        <item><a href="https://www.iu.ac.bd/admission/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://www.iu.ac.bd/admission/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.iu.ac.bd/admission/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.iu.ac.bd/admission/">Apply Now</a>]]></item>
 
-        <item><a href="https://ku.ac.bd/undergraduate"></a>Apply Now</item>
-        <item><a href="https://ku.ac.bd/undergraduate"></a>Apply Now</item>
-        <item><a href="https://ku.ac.bd/undergraduate"></a>Apply Now</item>
-        <item><a href="https://ku.ac.bd/undergraduate"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://ku.ac.bd/undergraduate">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://ku.ac.bd/undergraduate">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://ku.ac.bd/undergraduate">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://ku.ac.bd/undergraduate">Apply Now</a>]]></item>
 
-        <item><a href="https://www.couadmission.com/"></a>Apply Now</item>
-        <item><a href="https://www.couadmission.com/"></a>Apply Now</item>
-        <item><a href="https://www.couadmission.com/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://www.couadmission.com/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.couadmission.com/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.couadmission.com/">Apply Now</a>]]></item>
 
-        <item><a href="http://jkkniu.edu.bd/undergraduate-admissions/"></a>Apply Now</item>
-        <item><a href="http://jkkniu.edu.bd/undergraduate-admissions/"></a>Apply Now</item>
-        <item><a href="http://jkkniu.edu.bd/undergraduate-admissions/"></a>Apply Now</item>
-        <item><a href="http://jkkniu.edu.bd/undergraduate-admissions/"></a>Apply Now</item>
-        <item><a href="http://jkkniu.edu.bd/undergraduate-admissions/"></a>Apply Now</item>
+        <item><![CDATA[<a href="http://jkkniu.edu.bd/undergraduate-admissions/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="http://jkkniu.edu.bd/undergraduate-admissions/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="http://jkkniu.edu.bd/undergraduate-admissions/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="http://jkkniu.edu.bd/undergraduate-admissions/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="http://jkkniu.edu.bd/undergraduate-admissions/">Apply Now</a>]]></item>
 
-        <item><a href="https://admission.brur.ac.bd/login"></a>Apply Now</item>
-        <item><a href="https://admission.brur.ac.bd/login"></a>Apply Now</item>
-        <item><a href="https://admission.brur.ac.bd/login"></a>Apply Now</item>
-        <item><a href="https://admission.brur.ac.bd/login"></a>Apply Now</item>
-        <item><a href="https://admission.brur.ac.bd/login"></a>Apply Now</item>
-        <item><a href="https://admission.brur.ac.bd/login"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://admission.brur.ac.bd/login">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.brur.ac.bd/login">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.brur.ac.bd/login">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.brur.ac.bd/login">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.brur.ac.bd/login">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.brur.ac.bd/login">Apply Now</a>]]></item>
 
-        <item><a href="https://admission.bu.ac.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.bu.ac.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.bu.ac.bd/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://admission.bu.ac.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.bu.ac.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.bu.ac.bd/">Apply Now</a>]]></item>
 
-        <item><a href="http://www.rub.ac.bd/admission"></a>Apply Now</item>
+        <item><![CDATA[<a href="http://www.rub.ac.bd/admission">Apply Now</a>]]></item>
 
-        <item><a href="https://bdu.ac.bd/bdu-admission"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://bdu.ac.bd/bdu-admission">Apply Now</a>]]></item>
 
-        <item><a href="https://www.shu.edu.bd/admission-2020-2021/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://www.shu.edu.bd/admission-2020-2021/">Apply Now</a>]]></item>
 
-        <item><a href="https://www.sust.edu/admission/graduate-admission"></a>Apply Now</item>
-        <item><a href="https://www.sust.edu/admission/graduate-admission"></a>Apply Now</item>
-        <item><a href="https://www.sust.edu/admission/graduate-admission"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://www.sust.edu/admission/graduate-admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.sust.edu/admission/graduate-admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.sust.edu/admission/graduate-admission">Apply Now</a>]]></item>
 
-        <item><a href="https://hstu.ac.bd/admission"></a>Apply Now</item>
-        <item><a href="https://hstu.ac.bd/admission"></a>Apply Now</item>
-        <item><a href="https://hstu.ac.bd/admission"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://hstu.ac.bd/admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://hstu.ac.bd/admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://hstu.ac.bd/admission">Apply Now</a>]]></item>
 
-        <item><a href="https://mbstu-admission.net/"></a>Apply Now</item>
-        <item><a href="https://mbstu-admission.net/"></a>Apply Now</item>
-        <item><a href="https://mbstu-admission.net/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://mbstu-admission.net/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://mbstu-admission.net/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://mbstu-admission.net/">Apply Now</a>]]></item>
 
-        <item><a href="https://admission.nstu.edu.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.nstu.edu.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.nstu.edu.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.nstu.edu.bd/"></a>Apply Now</item>
-        <item><a href="https://admission.nstu.edu.bd/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://admission.nstu.edu.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.nstu.edu.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.nstu.edu.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.nstu.edu.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://admission.nstu.edu.bd/">Apply Now</a>]]></item>
 
-        <item><a href="https://just.edu.bd/"></a>Apply Now</item>
-        <item><a href="https://just.edu.bd/"></a>Apply Now</item>
-        <item><a href="https://just.edu.bd/"></a>Apply Now</item>
-        <item><a href="https://just.edu.bd/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://just.edu.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://just.edu.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://just.edu.bd/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://just.edu.bd/">Apply Now</a>]]></item>
 
-        <item><a href="https://www.pust.ac.bd/admission/undergraduate"></a>Apply Now</item>
-        <item><a href="https://www.pust.ac.bd/admission/undergraduate"></a>Apply Now</item>
-        <item><a href="https://www.pust.ac.bd/admission/undergraduate"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://www.pust.ac.bd/admission/undergraduate">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.pust.ac.bd/admission/undergraduate">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.pust.ac.bd/admission/undergraduate">Apply Now</a>]]></item>
 
-        <item><a href="https://www.bsmrstu.edu.bd/admission/"></a>Apply Now</item>
-        <item><a href="https://www.bsmrstu.edu.bd/admission/"></a>Apply Now</item>
-        <item><a href="https://www.bsmrstu.edu.bd/admission/"></a>Apply Now</item>
-        <item><a href="https://www.bsmrstu.edu.bd/admission/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://www.bsmrstu.edu.bd/admission/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.bsmrstu.edu.bd/admission/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.bsmrstu.edu.bd/admission/">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://www.bsmrstu.edu.bd/admission/">Apply Now</a>]]></item>
 
-        <item><a href="https://rmstu.edu.bd/admissions/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://rmstu.edu.bd/admissions/">Apply Now</a>]]></item>
 
-        <item><a href="https://bsfmstu.ac.bd/admission/"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://bsfmstu.ac.bd/admission/">Apply Now</a>]]></item>
 
-        <item><a href="https://pstu.ac.bd/admission"></a>Apply Now</item>
-        <item><a href="https://pstu.ac.bd/admission"></a>Apply Now</item>
-        <item><a href="https://pstu.ac.bd/admission"></a>Apply Now</item>
-        <item><a href="https://pstu.ac.bd/admission"></a>Apply Now</item>
-        <item><a href="https://pstu.ac.bd/admission"></a>Apply Now</item>
+        <item><![CDATA[<a href="https://pstu.ac.bd/admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://pstu.ac.bd/admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://pstu.ac.bd/admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://pstu.ac.bd/admission">Apply Now</a>]]></item>
+        <item><![CDATA[<a href="https://pstu.ac.bd/admission">Apply Now</a>]]></item>
 
     </string-array>
 

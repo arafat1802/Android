@@ -91,7 +91,9 @@ public class UniversityInfo extends AppCompatActivity {
 
         //list of names of university (manually synced with logos)
         String[] universityName = getResources().getStringArray(R.array.unit_wise_university_name);
-    try {
+        String[] universityLink = getResources().getStringArray(R.array.University_admission_link);
+
+        try {
         String SscGpa = getIntent().getStringExtra("KeySscGpa");
         String HscGpa = getIntent().getStringExtra("KeyHscGpa");
         String Unit = getIntent().getStringExtra("Unit");
@@ -101,19 +103,21 @@ public class UniversityInfo extends AppCompatActivity {
 
         //For creating custom list depending on inputted gpa
         ArrayList<String> displayedList = new ArrayList<>();
-        ArrayList<Integer> displayedLogos = new ArrayList<>() ;
+        ArrayList<Integer> displayedLogos = new ArrayList<>();
+        ArrayList<String> displayedListLink = new ArrayList<>();
 
         for(int i = 0; i< universityName.length; i++)
         {
             if(ssc_req[i]<=ssc_gpa && hsc_req[i]<=hsc_gpa && (UnitType[i].equals(Unit) || UnitType[i].equals("gen") )) {
                 displayedList.add(universityName[i]);
                 displayedLogos.add(logos[i]);
+                displayedListLink.add(universityLink[i]);
             }
         }
 
 
         list = findViewById(R.id.university_list);
-        CustomAdapter customAdapter = new CustomAdapter(this,displayedList,displayedLogos,Unit);
+        CustomAdapter customAdapter = new CustomAdapter(this,displayedList,displayedLogos,Unit,displayedListLink);
         list.setAdapter(customAdapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
