@@ -1,6 +1,7 @@
 package com.example.universityadmissionhelpline;
 
 import android.content.Context;
+import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,12 +18,15 @@ public class CustomAdapter extends BaseAdapter {
     ArrayList<String> universityName;
     Context context;
     LayoutInflater inflater;
+    ArrayList<String>UniversityLink;
 
-    CustomAdapter(Context context, ArrayList<String> universityName,ArrayList<Integer> logos,String unit){
+    CustomAdapter(Context context, ArrayList<String> universityName,ArrayList<Integer> logos,String unit,ArrayList<String>UniversityLink){
         this.context = context;
         this.universityName = universityName;
         this.logos = logos;
+        this.UniversityLink = UniversityLink;
     }
+
     @Override
     public int getCount() {
         return universityName.size();
@@ -51,10 +55,12 @@ public class CustomAdapter extends BaseAdapter {
 
 
         TextView linkTextView = convertView.findViewById(R.id.apply_link);
+        linkTextView.setText(Html.fromHtml(UniversityLink.get(position)));
         linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
 
         imageView.setImageResource(logos.get(position));
         textView.setText(universityName.get(position));
+
 
         return convertView;
     }
