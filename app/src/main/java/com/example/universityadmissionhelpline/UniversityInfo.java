@@ -92,6 +92,7 @@ public class UniversityInfo extends AppCompatActivity {
         //list of names of university (manually synced with logos)
         String[] universityName = getResources().getStringArray(R.array.unit_wise_university_name);
         String[] universityLink = getResources().getStringArray(R.array.University_admission_link);
+        String[] Deadlines = getResources().getStringArray(R.array.Dates);
 
         try {
         String SscGpa = getIntent().getStringExtra("KeySscGpa");
@@ -105,6 +106,7 @@ public class UniversityInfo extends AppCompatActivity {
         ArrayList<String> displayedList = new ArrayList<>();
         ArrayList<Integer> displayedLogos = new ArrayList<>();
         ArrayList<String> displayedListLink = new ArrayList<>();
+        ArrayList<String> displayDateList = new ArrayList<>();
 
         for(int i = 0; i< universityName.length; i++)
         {
@@ -112,12 +114,13 @@ public class UniversityInfo extends AppCompatActivity {
                 displayedList.add(universityName[i]);
                 displayedLogos.add(logos[i]);
                 displayedListLink.add(universityLink[i]);
+                displayDateList.add(Deadlines[i]);
             }
         }
 
 
         list = findViewById(R.id.university_list);
-        CustomAdapter customAdapter = new CustomAdapter(this,displayedList,displayedLogos,Unit,displayedListLink);
+        CustomAdapter customAdapter = new CustomAdapter(this,displayedList,displayedLogos,Unit,displayedListLink,displayDateList);
         list.setAdapter(customAdapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {

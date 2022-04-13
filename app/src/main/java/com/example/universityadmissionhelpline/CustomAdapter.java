@@ -19,12 +19,13 @@ public class CustomAdapter extends BaseAdapter {
     Context context;
     LayoutInflater inflater;
     ArrayList<String>UniversityLink;
-
-    CustomAdapter(Context context, ArrayList<String> universityName,ArrayList<Integer> logos,String unit,ArrayList<String>UniversityLink){
+    ArrayList<String>displayDateList;
+    CustomAdapter(Context context, ArrayList<String> universityName,ArrayList<Integer> logos,String unit,ArrayList<String>UniversityLink,ArrayList<String>displayDateList){
         this.context = context;
         this.universityName = universityName;
         this.logos = logos;
         this.UniversityLink = UniversityLink;
+        this.displayDateList = displayDateList;
     }
 
     @Override
@@ -52,7 +53,7 @@ public class CustomAdapter extends BaseAdapter {
 
         ImageView imageView = (ImageView) convertView.findViewById(R.id.varsity_logo);
         TextView textView = (TextView) convertView.findViewById(R.id.varsity_name_id);
-
+        TextView deadline = (TextView) convertView.findViewById(R.id.application_deadline);
 
         TextView linkTextView = convertView.findViewById(R.id.apply_link);
         linkTextView.setText(Html.fromHtml(UniversityLink.get(position)));
@@ -60,7 +61,9 @@ public class CustomAdapter extends BaseAdapter {
 
         imageView.setImageResource(logos.get(position));
         textView.setText(universityName.get(position));
-
+        String temp =displayDateList.get(position);
+        temp = "Application Deadline: "+ temp;
+        deadline.setText(temp);
 
         return convertView;
     }
